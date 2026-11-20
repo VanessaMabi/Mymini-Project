@@ -1,0 +1,6 @@
+[   80119ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://shop.missionplaywright.fr/auth:1
+[  125367ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://mvqqlftnxiftxpvlbbwx.supabase.co/auth/v1/token?grant_type=password:1
+[  126318ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://shop.missionplaywright.fr/auth:1
+[  126318ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://shop.missionplaywright.fr/auth:1
+[  139171ms] [ERROR] 404 Error: User attempted to access non-existent route: /page-inexistante @ https://shop.missionplaywright.fr/assets/index-BeZO8o-N.js:448
+[  139340ms] [ERROR] 404 Error: User attempted to access non-existent route: /orders @ https://shop.missionplaywright.fr/assets/index-BeZO8o-N.js:448
