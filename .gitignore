@@ -7,3 +7,12 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 .env.*
+
+# Rapports générés
+/allure-results/
+/allure-report/
+/all-blob-reports/
+
+# Divers
+.DS_Store
+.playwright-mcp/

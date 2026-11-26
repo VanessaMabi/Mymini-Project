@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Dépendances npm (Playwright, Allure, Faker…) : regroupées en une seule PR hebdo
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      npm-deps:
+        patterns: ["*"]
+    open-pull-requests-limit: 5
+
+  # Versions des actions GitHub utilisées dans les workflows
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      actions:
+        patterns: ["*"]
